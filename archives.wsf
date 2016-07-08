@@ -9,8 +9,8 @@
 	WScript.Echo((new Date) + " : START");
         var __debug__ = 1;
         new RecursiveArch(new Parameters({
-            rootSrc:"D:\\users\\prot\\develop\\pjarch\\proba\\src",
-            rootDst:new Template("D:\\users\\prot\\develop\\pjarch\\proba\\{$year}\\{$week}\\dst"),
+            rootSrc:"D:\\users\\prot\\develop\\pjarch\\test\\src",
+            rootDst:new Template("D:\\users\\prot\\develop\\pjarch\\test\\{$year}\\{$week}\\dst"),
             overwriteExistsFile:true
         })).run()._delete_();
         
@@ -22,7 +22,7 @@
         }).MakeNetworkDrive();
 
         new RecursiveArch(new Parameters({
-            rootSrc:"D:\\users\\prot\\develop\\pjarch\\proba\\src",
+            rootSrc:"D:\\users\\prot\\develop\\pjarch\\test\\src",
             rootDst:(new Template(
                 "{$NetDrive}\\{$year}\\{$week}\\dst",
                 {NetDrive:""+locNetworkDrive}

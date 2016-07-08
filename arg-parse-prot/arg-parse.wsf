@@ -1,8 +1,0 @@
-<job id="IncludeExample">
-   <script language="JScript" src="json2.js"/>
-   <script language="JScript" src="arg-parse.js"/>
-   <script language="JScript" src="jsr.js"/>
-   <script language="JScript">
-	  main();
-   </script>
-</job>
