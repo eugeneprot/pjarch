@@ -1,0 +1,44 @@
+<job id="IncludeExample">
+    <script language="JScript" src="js\common.js"/>
+    <script language="JScript" src="js\template.js"/>
+    <script language="JScript" src="js\netdrive.js"/>
+    <script language="JScript" src="js\stopdatetime.js"/>
+    <script language="JScript" src="js\params.js"/>
+    <script language="JScript" src="js\rcrsarch.js"/>
+    <script language="JScript">
+	WScript.Echo((new Date) + " : START");
+        var __debug__ = 1;
+        new RecursiveArch(new Parameters({
+            rootSrc:"D:\\users\\prot\\develop\\pjarch\\proba\\src",
+            rootDst:new Template("D:\\users\\prot\\develop\\pjarch\\proba\\{$year}\\{$week}\\dst"),
+            overwriteExistsFile:true
+        })).run()._delete_();
+        
+        
+        var locNetworkDrive = new NetworkDrive({
+            RemoteName:"\\\\TURNKEYFS001\\arch_in_direction",
+            User:"direction",
+            Password:"1qazXSW@"
+        }).MakeNetworkDrive();
+
+        new RecursiveArch(new Parameters({
+            rootSrc:"D:\\users\\prot\\develop\\pjarch\\proba\\src",
+            rootDst:(new Template(
+                "{$NetDrive}\\{$year}\\{$week}\\dst",
+                {NetDrive:""+locNetworkDrive}
+            )),
+            overwriteExistsFile:false,
+            stopDateTime:new StopDateTime({
+                Year   : 2016,
+                Month  : 05,
+                Date   : 24,
+                Hours  : 10,
+                Minutes: 15
+            })
+        })).run()._delete_();
+
+//        locNetworkDrive._delete_();
+	WScript.Echo((new Date) + " : STOP");
+
+    </script>
+</job>

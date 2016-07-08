@@ -1,0 +1,70 @@
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.prototype.run: stopDateTime > undefined
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan.zip
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.copyFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan.zip => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan.zip
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\JS_types.txt.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\JS_types.txt => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\JS_types.txt.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\README.TXT.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\README.TXT => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\README.TXT.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_01_01\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_01_01\index.html => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_01_01\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_06_01\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_09_01\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_09_01\index.html => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_09_01\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_09_01\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_12_02\.vimrc.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_12_02\.vimrc => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_12_02\.vimrc.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_12_02\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_14_17\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\clock-icon.png
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.copyFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\clock-icon.png => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\clock-icon.png
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\Drag.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\Enclose.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\getGeometry.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\index.html => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\indexDragSrc.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\indexDragSrc.html => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\indexDragSrc.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\indexTextFilter.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\indexTextFilter.html => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\indexTextFilter.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\indexWheel.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\indexWheel.html => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\indexWheel.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\InputFilter.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\testimage.jpg
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.copyFile: D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\testimage.jpg => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\flanagan\example_mouse\testimage.jpg
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\whenReady.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_pg192\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_pg204\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_pg204\main2.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\maccaw\makemaket\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\maccaw\makemaket\index.html => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\maccaw\makemaket\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: Delete > D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\maccaw\makemaket\styles.css.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\maccaw\makemaket\styles.css => D:\users\prot\develop\pjarch\proba\2016\25\dst\javascript\maccaw\makemaket\styles.css.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : WshNetwork.MapNetworkDrive: W: => \\TURNKEYFS001\arch_in_direction
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.prototype.run: stopDateTime > > Fri Jun 24 10:15:39 UTC+0300 2016 2016 5 24 10 15 *
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan.zip
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\JS_types.txt.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\README.TXT.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_01_01\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_06_01\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_09_01\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_09_01\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_12_02\.vimrc.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_12_02\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_14_17\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_mouse\clock-icon.png
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\Drag.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\Enclose.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\getGeometry.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_mouse\index.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_mouse\indexDragSrc.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_mouse\indexTextFilter.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_mouse\indexWheel.html.7z
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\InputFilter.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\flanagan\example_mouse\testimage.jpg
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_mouse\whenReady.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_pg192\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_pg204\main.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.fileToArch: Exclude > D:\users\prot\develop\pjarch\proba\src\javascript\flanagan\example_pg204\main2.js
+Fri Jun 24 10:10:39 UTC+0300 2016 : RecursiveArch.ifFileExists: File Exists > W:\2016\25\dst\javascript\maccaw\makemaket\index.html.7z
+Fri Jun 24 10:10:40 UTC+0300 2016 : RecursiveArch.packFile: D:\users\prot\develop\pjarch\proba\src\javascript\maccaw\makemaket\styles.css => W:\2016\25\dst\javascript\maccaw\makemaket\styles.css.7z
+Fri Jun 24 10:10:40 UTC+0300 2016 : WshNetwork.RemoveNetworkDrive: W: <=> \\TURNKEYFS001\arch_in_direction

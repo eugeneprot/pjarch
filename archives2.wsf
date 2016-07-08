@@ -1,0 +1,20 @@
+<job id="IncludeExample">
+    <script language="JScript" src="js\recurs7z.js"/>
+    <script language="JScript">
+        var __debug__ = 1;
+        new RecursiveArch(new Parameters({
+            rootSrc:"D:\\users\\prot\\develop\\pjarch\\proba\\src",
+            rootDst:"D:\\users\\prot\\develop\\pjarch\\proba\\dst"/*,
+            withDateStamp:true*/}
+        )).run()._delete_();
+/*        var locNetworkDrive = new NetworkDrive(undefined,"\\\\TURNKEYFS001\\arch_in_direction","direction","1qazXSW@").MakeNetworkDrive()
+        new RecursiveArch(
+            new Parameters(
+                "D:\\users\\prot\\develop\\pjarch\\proba\\src",
+                ""+locNetworkDrive+"\\dst",
+                true
+            )
+        ).run()._delete_();
+        locNetworkDrive._delete_();*/
+    </script>
+</job>

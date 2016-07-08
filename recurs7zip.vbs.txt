@@ -1,0 +1,55 @@
+dim MyFile, gfso, rootpath, arhroot, archExe, WshShell, regExp,patrn
+
+sub CrtFolder(AFolderName)
+   Dim fso, f
+'   WScript.echo(AFolderName)
+'   Set fso = CreateObject("Scripting.FileSystemObject")
+   Set f = gfso.CreateFolder(AFolderName)
+end sub
+
+function ArcFile(ASrcFileName)
+  arcfile = arhroot & mid(AsrcFileName, Len(rootpath)+1)
+end function
+
+sub fileToArch(AFile)
+   dim s, retVal
+   s = AFile.path
+   retVal=regExp.Test(s)
+   if retVal then
+     MyFile.WriteLine(s)
+ '  set WshShell = WScript.CreateObject("WScript.Shell")
+     WshShell.Run archExe & " """ & ArcFile(s) & ".zip"" """ & s & """",8,True
+   end if
+end sub
+
+sub runFolder(APath)
+   Dim fso, curFolder, files, subfolders, curSubFolder, curFile
+'   Set fso = CreateObject("Scripting.FileSystemObject")
+   Set curFolder = gfso.GetFolder(APath)
+   set files = curFolder.files
+   Set subfolders = curFolder.SubFolders
+   for each curFile in files
+     call fileToArch(curFile)
+   next
+   For Each curSubFolder in subfolders
+      call CrtFolder(ArcFile(APath&"\"&cursubfolder.name))
+      runFolder(APath&"\"&cursubfolder.name)
+   Next
+end sub
+
+rootpath = "z:\src"
+arhroot = "z:\dst"
+patrn=".*"
+archExe = """C:\Program Files\7-Zip\7z.exe"" a -tzip "
+Set gfso = CreateObject("Scripting.FileSystemObject")
+set WshShell = WScript.CreateObject("WScript.Shell")
+Set MyFile = gfso.CreateTextFile("recurs.txt", True)
+set regExp = New RegExp
+regExp.Pattern=patrn
+regExp.IgnoreCase=True
+
+call runFolder(rootpath)
+
+MyFile.Close
+
+WScript.echo "Все!"

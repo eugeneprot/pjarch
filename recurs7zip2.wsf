@@ -1,0 +1,11 @@
+<job id="IncludeExample">
+   <script language="JScript" src="recurs7zip2.js"/>
+   <script language="JScript">
+      //<![CDATA[
+      // use your library functions here
+	  //main();
+      //]]>
+	  new RecursiveArch(new Parameters("D:\\users\\prot\\develop\\pjarch\\proba\\src","D:\\users\\prot\\develop\\pjarch\\proba\\dst", true)).run();
+	  new RecursiveArch(new Parameters("D:\\users\\prot\\develop\\pjarch\\proba\\src","\\\\turnkeyfs001\\arch000\\dst", true)).run();
+   </script>
+</job>
