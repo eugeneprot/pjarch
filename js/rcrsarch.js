@@ -162,11 +162,9 @@ RecursiveArch.prototype.worksObjectsInFolder=function(AFolder){
     function _filesObj(AObj,AMethod,AEnumerator){
         for(;!AEnumerator.atEnd();AEnumerator.moveNext()){
             try{
-//                this.fileToArch(AEnumerator.item().Path);
                 AMethod.call(AObj,AEnumerator.item());
             }catch(e){
                 if(e.name == "RecursiveArchError"){
-                    // разобраться с Сообщением
                     debugTrace(1,'Error: ' + e.name + ":" + e.message + ":"  + AEnumerator.item().Path);
                 }else{
                     throw e;
@@ -178,34 +176,6 @@ RecursiveArch.prototype.worksObjectsInFolder=function(AFolder){
     this.Parameters.checkStopEvent();
     _filesObj(this,this.fileToArch,new Enumerator(AFolder.Files));
     _filesObj(this,this.nextFolder,new Enumerator(AFolder.SubFolders));
-/*	var locFiles=new Enumerator(AFolder.Files);
-	for(;!locFiles.atEnd();locFiles.moveNext()){
-        try{
-            this.fileToArch(locFiles.item().Path);
-        }catch(e){
-            if(e.name == "RecursiveArchError"){
-                // разобраться с Сообщением
-                debugTrace(1,'Error: ' + e.name + ":" + e.message + " File name: "  + locFiles.item().Path);
-            }else{
-                throw e;
-            }
-        }
-	}
-	
-	var locSubFolders = new Enumerator(AFolder.SubFolders);
-	for(;!locSubFolders.atEnd();locSubFolders.moveNext()){
-        try{
-            this.nextFolder(locSubFolders.item());
-        }catch(e){
-            if(e.name == "RecursiveArchError"){
-                // разобраться с Сообщением
-                debugTrace(1,'Error: ' + e.name + ":" + e.message + " Subfolder name: "  + locSubFolders.item().Path);
-            }else{
-                throw e;
-            }
-        }
-	}
- */
 }
 
 RecursiveArch.prototype.nextFolder=function(AFolder){
