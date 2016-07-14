@@ -34,6 +34,7 @@ Template.prototype.getParameterDate = function (AParameter){
     case "YEAR"    : locResult = Template.FillSpaceLeft(this._date.getFullYear(),4); break;
     case "MONTH"   : locResult = Template.FillSpaceLeft(this._date.getMonth(),2)   ; break;
     case "WEEK"    : locResult = Template.FillSpaceLeft(this._date.getWeek(),2)    ; break;
+    case "SEVEN"   : locResult = Template.FillSpaceLeft(this._date.getSeven(),2)   ; break;
     case "ONEDAY"  : locResult = Template.FillSpaceLeft(this._date.getOneDay(),3)  ; break;
     case "PAIR"    : locResult = Template.FillSpaceLeft(this._date.getPair(),3)    ; break;
     case "TRIO"    : locResult = Template.FillSpaceLeft(this._date.getTrio(),3)    ; break;
@@ -80,8 +81,17 @@ Template.prototype._setPredefineParameters = function (AParameters){
     function _stretch(AStepDays){
         return function (){return Math.floor((this - (new Date(this.getFullYear(),0,1))) / (AStepDays*Template.OneDay));}
     }
+    function _getWeek(){
+        return function (){
+            var locY = new Date(this.getFullYear(),0,1);
+            locY.setDate(locY.getDate()-locY.getDay());
+            return Math.floor((this-locY)/(7*Template.OneDay));
+        }
+    }
     this._date = AParameters.DateTime || new Date;
-    this._date.getWeek   = _stretch(7);
+//    this._date.getWeek   = _stretch(7);
+    this._date.getWeek   = _getWeek();
+    this._date.getSeven  = _stretch(7);
     this._date.getOneDay = _stretch(1);
     this._date.getPair   = _stretch(2);
     this._date.getTrio   = _stretch(3);
