@@ -3,6 +3,7 @@
 
 import os
 import sys
+import shutil
 import argparse
 import hashlib
 
@@ -43,10 +44,9 @@ def file2hashLink(aFileName,aDstDir=".",aHashAlgoritm=mDefHashAlgoritm):
         locDstFullPath=dstFullPath(aDstDir,locHash,aHashAlgoritm)
         dstPathMake(locDstFullPath)
         locNewFullFileName=os.path.join(locDstFullPath,mNameFileDat)
-        if os.path.exists(locNewFullFileName):
-            os.remove(locInFullFileName)
-        else:
-            os.rename(locInFullFileName,locNewFullFileName)
+        if not os.path.exists(locNewFullFileName):
+            shutil.copyfile(locInFullFileName,locNewFullFileName)
+        os.remove(locInFullFileName)
         os.symlink(locNewFullFileName,locInFullFileName)
         
 def checkOs():
