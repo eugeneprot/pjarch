@@ -1,0 +1,1 @@
+find /home/prot/dwnld -type f -exec ./file2hash.py "{}" -d /home/prot \;

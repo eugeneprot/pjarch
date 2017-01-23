@@ -1,0 +1,19 @@
+<job id="IncludeExample">
+    <script language="JScript" src="js\common.js"/>
+    <script language="JScript" src="js\template.js"/>
+    <script language="JScript" src="js\netdrive.js"/>
+    <script language="JScript" src="js\stopdatetime.js"/>
+    <script language="JScript" src="js\params.js"/>
+    <script language="JScript" src="js\rcrsarch.js"/>
+    <script language="JScript">
+       
+        
+        var locNetworkDrive = new NetworkDrive({
+            RemoteName:"\\\\TURNKEYFS001\\arch_in_direction",
+            User:"direction",
+            Password:"1qazXSW@"
+        }).MakeNetworkDrive();
+
+
+    </script>
+</job>
